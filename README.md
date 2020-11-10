@@ -1,0 +1,1 @@
+# kurihara-training-part10
