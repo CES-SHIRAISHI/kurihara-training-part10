@@ -12,8 +12,16 @@
 				url: 'sample3.xml',
 				dataType: 'xml',
 				success: function (data) {
+					// リクエストが成功した場合、以下の処理が実行される
+
+					// xml にある <item> の エレメント をすべて取得して、ループ
 					$("item", data).each(function () {
+						var link_url = $("link", this).text();
+						var link_title = $("title", this).text();
+						var link_text = $("description", this).text();
+
 						$("dl").append("<dt><a href='" + $("link", this).text() + "'>" + $("title", this).text() + "</a></dt><dd>" + $("description", this).text() + "</dd>");
+
 					});
 				}
 			});
