@@ -21,27 +21,23 @@
 
 ### P6.ハンズオン 15 （第9回資料 : P28.ハンズオン 15 と同じ）
 
-
-オンラインデモ
-
-- [chapter02/04/sample1.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample1.html)
-  - [codepen](https://codepen.io/ces-shiraishi/pen/YzWaGjK)
+- オンラインデモ
+  - [chapter02/04/sample1.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample1.html)
+    - [codepen](https://codepen.io/ces-shiraishi/pen/YzWaGjK)
 
 
 ### P7.ハンズオン 16 （第9回資料 : P29.ハンズオン 16 と同じ）
 
-オンラインデモ
-
-- [chapter02/04/sample2.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample2.html)
-  - [codepen](https://codepen.io/ces-shiraishi/pen/rNLdMKK)
+- オンラインデモ
+  - [chapter02/04/sample2.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample2.html)
+    - [codepen](https://codepen.io/ces-shiraishi/pen/rNLdMKK)
 
 
 ### P8.ハンズオン 17 （第9回資料 : P30.ハンズオン 17 と同じ）
 
-オンラインデモ
-
-- [chapter02/04/sample4.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample4.html)
-  - [codepen](https://codepen.io/ces-shiraishi/pen/WNxzGyj)
+- オンラインデモ
+  - [chapter02/04/sample4.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample4.html)
+    - [codepen](https://codepen.io/ces-shiraishi/pen/WNxzGyj)
 
 
 ### P9.ハンズオン 18 （第9回資料 : P31.ハンズオン 18 と同じ）
@@ -66,18 +62,17 @@ $(function () {
         });
 });
 ```
-オンラインデモ
 
-- [chapter02/04/sample5.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample5.html)
-  - [codepen](https://codepen.io/ces-shiraishi/pen/MWeVjGQ)
+- オンラインデモ
+  - [chapter02/04/sample5.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample5.html)
+    - [codepen](https://codepen.io/ces-shiraishi/pen/MWeVjGQ)
 
 
 ### P10.ハンズオン 19 （第9回資料 : P32.ハンズオン 19 と同じ）
 
-オンラインデモ
-
-- [chapter02/04/sample6.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample6.html)
-  - [codepen](https://codepen.io/ces-shiraishi/pen/vYKRXjY)
+- オンラインデモ
+  - [chapter02/04/sample6.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample6.html)
+    - [codepen](https://codepen.io/ces-shiraishi/pen/vYKRXjY)
 
 
 ### P12.ハンズオン 20 （第9回資料 : P34.ハンズオン 20 と同じ）
@@ -85,26 +80,23 @@ $(function () {
 1. `$("span").css("font-weight")` の戻り値は数値を返すことがあり、 bold という文字列を返さないため、ハンズオンのソースは正しくない。
 1. そもそも値がセットされていない場合は `undefined` を戻すので、それを利用する
 
-オンラインデモ
-
-- [chapter02/04/sample8.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample8.html)
-  - [codepen](https://codepen.io/ces-shiraishi/pen/NWrYRYd)
+- オンラインデモ
+  - [chapter02/04/sample8.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample8.html)
+    - [codepen](https://codepen.io/ces-shiraishi/pen/NWrYRYd)
 
 
 ### P13.ハンズオン 21 （第9回資料 : P35.ハンズオン 21 と同じ）
 
-オンラインデモ
-
-- [chapter02/04/sample9.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample9.html)
-  - [codepen](https://codepen.io/ces-shiraishi/pen/YzWaGem)
+- オンラインデモ
+  - [chapter02/04/sample9.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample9.html)
+    - [codepen](https://codepen.io/ces-shiraishi/pen/YzWaGem)
 
 
 ### P14.ハンズオン 22 （第9回資料 : P36.ハンズオン 22 と同じ）
 
-オンラインデモ
-
-- [chapter02/04/sample10.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample10.html)
-  - [codepen](https://codepen.io/ces-shiraishi/pen/dyXmMMY)
+- オンラインデモ
+  - [chapter02/04/sample10.html](https://ces-shiraishi.github.io/kurihara-training-part9/chapter02-04/sample10.html)
+    - [codepen](https://codepen.io/ces-shiraishi/pen/dyXmMMY)
 
 
 
@@ -145,12 +137,10 @@ $(function () {
 
 ### P18.ハンズオン 4
 
-
-オンラインデモ
-
 みたまんまなので、特にコメントはないものの、よくあるパターンなので、理解はしたほうが良い
 
-- [chapter03/02/sample2.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter03-02/sample2.html)
+- オンラインデモ
+  - [chapter03/02/sample2.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter03-02/sample2.html)
 
 
 
@@ -167,9 +157,9 @@ $(function () {
 
 ajax で sample1.txt にリクエストを出して、その結果（レスポンス）を出しているという認識をすれば良いので、`sample1.txt` をブラウザでアクセスして見た結果を `<p>` 要素の中に入れていると思えばいい。
 
-オンラインデモ
-- [chapter02/05/sample1.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-05/sample1.html)
-  - [chapter02/05/sample1.txt](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-05/sample1.txt)
+- オンラインデモ
+  - [chapter02/05/sample1.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-05/sample1.html)
+    - [chapter02/05/sample1.txt](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-05/sample1.txt)
 
 
 ※ load メソッドは[最新版では非推奨](https://api.jquery.com/category/deprecated/deprecated-1.8/)なので、利用しないこと
@@ -179,9 +169,9 @@ ajax で sample1.txt にリクエストを出して、その結果（レスポ�
 
 考え方は同じ
 
-オンラインデモ
-- [chapter02/05/sample2.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-05/sample2.html)
-  - [chapter02/05/sample2_load.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-05/sample2_load.html)
+- オンラインデモ
+  - [chapter02/05/sample2.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-05/sample2.html)
+    - [chapter02/05/sample2_load.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-05/sample2_load.html)
 
 
 ### P25.ハンズオン 07
@@ -204,47 +194,47 @@ ajax で sample1.txt にリクエストを出して、その結果（レスポ�
   - 1.9から : always
 
 
-オンラインデモ
-- [chapter02/05/sample3.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-05/sample3.html)
-  - [chapter02/05/sample3.xml](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-05/sample3.xml)
+- オンラインデモ
+  - [chapter02/05/sample3.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-05/sample3.html)
+    - [chapter02/05/sample3.xml](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-05/sample3.xml)
 
 
 
 
 ### P28.ハンズオン 09
 
-オンラインデモ
-- [Bootstrap1.html](https://ces-shiraishi.github.io/kurihara-training-part10/Bootstrap1.html)
+- オンラインデモ
+  - [Bootstrap1.html](https://ces-shiraishi.github.io/kurihara-training-part10/Bootstrap1.html)
 
 
 
 ### P29.ハンズオン 10
 
-オンラインデモ
-- [Bootstrap2.html](https://ces-shiraishi.github.io/kurihara-training-part10/Bootstrap2.html)
+- オンラインデモ
+  - [Bootstrap2.html](https://ces-shiraishi.github.io/kurihara-training-part10/Bootstrap2.html)
 
 
 
 ### P30.ハンズオン 11
 
-オンラインデモ
-- [Bootstrap3.html](https://ces-shiraishi.github.io/kurihara-training-part10/Bootstrap3.html)
+- オンラインデモ
+  - [Bootstrap3.html](https://ces-shiraishi.github.io/kurihara-training-part10/Bootstrap3.html)
 
 
 
 
 ### P31.ハンズオン 12
 
-オンラインデモ
-- [Bootstrap4.html](https://ces-shiraishi.github.io/kurihara-training-part10/Bootstrap4.html)
+- オンラインデモ
+  - [Bootstrap4.html](https://ces-shiraishi.github.io/kurihara-training-part10/Bootstrap4.html)
 
 
 
 
 ### P33.ハンズオン 13
 
-オンラインデモ
-- [Bootstrap5.html](https://ces-shiraishi.github.io/kurihara-training-part10/Bootstrap5.html)
+- オンラインデモ
+  - [Bootstrap5.html](https://ces-shiraishi.github.io/kurihara-training-part10/Bootstrap5.html)
 
 
 
