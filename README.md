@@ -144,7 +144,7 @@ $(function () {
 
 
 
-### P20.ハンズオン 05 (第4回資料 P07.ハンズオン 01と同じ)
+### P20.ハンズオン 05
 
 第4回資料 P07.ハンズオン 01と処理は大体同じ なので、詳細はそちらを見て下さい。
 
@@ -181,7 +181,7 @@ ajax で sample1.txt にリクエストを出して、その結果（レスポ�
 
 ### P26.ハンズオン 08
 
-成功以外に、失敗 (error) と 完了 (complete)も覚える必要があるが、そもそもこれらは1.8から[最新版では非推奨](https://api.jquery.com/category/deprecated/deprecated-1.8/)なので、利用しない事が多い。
+成功以外に、`失敗 (error)` と `完了 (complete)` も覚える必要があるが、そもそもこれらは1.8から[最新版では非推奨](https://api.jquery.com/category/deprecated/deprecated-1.8/)なので、利用しない事が多い。
 
 - 成功
   - 1.8まで : success
@@ -192,6 +192,7 @@ ajax で sample1.txt にリクエストを出して、その結果（レスポ�
 - 完了
   - 1.8まで : complete
   - 1.9から : always
+
 
 
 - オンラインデモ
