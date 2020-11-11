@@ -113,15 +113,14 @@ $(function () {
 
 ### P15.ハンズオン 1
 
-職種的な問題で、アニメーションを実務で使うことはないが、以下のような命令は使うことがある。
+職種的な問題で、アニメーション(slow)を実務で使うことはないが、以下のような命令は使うことがある。
 
 - show
 - hide
 - toggle
 
-オンラインデモ
-
-- [chapter02/06/sample3.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-06/sample3.html)
+- オンラインデモ
+  - [chapter02/06/sample3.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-06/sample3.html)
 
 
 
