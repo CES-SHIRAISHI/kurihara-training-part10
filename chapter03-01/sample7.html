@@ -8,20 +8,42 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 	<script>
 		$(function () {
+			// 1 th, 2 th ... n th の事 で n番目 ということ
+			// odd : 奇数 / even : 偶数
 			$("th:nth-child(odd)").addClass("odd");
 			$("tr:nth-child(even)").addClass("even");
 
+			// tr : 行の列 が 1行目以外 なら
 			$("tr:not(:first-child)").mouseover(function () {
+				// マウスが行の上なら … class="hover" (水色) にする
 				$(this).addClass("hover");
 			}).mouseout(function () {
 				$(this).removeClass("hover");
 			});
 
+			// td : 列 のこと。 （1行目は th なので対象外）
 			$("td").mouseover(function () {
-				$("td:nth-child(" + ($("td").index(this) % $("th").length + 1) + ")").addClass("hover");
+				// マウスが列の上なら … class="hover" (水色) にする
+
+				// th は 1行目しかないので、 th の数 = 列数
+				var column_size = $("th").length;
+
+				// マウスが乗っかっている位置を検索する。td 全体の 何番目の td なのか
+				var td_number = $("td").index(this);
+
+				// 1行 は column_size 個 あると仮定した場合
+				// td_number 個 の td を 割り、 余りの数が 列数 となる
+				// 数の始まりが 0 始まりで カウントしているため、 1 から開始させるために + 1 している
+				// 身も蓋もないことを言えば $(this).index() で良い気がしている
+				var column_number = (td_number % column_size) + 1;
+
+				// x 番目の 列 となるものは、 class=hover とする。 要するにマウスが乗っている列は hover とする
+				$("td:nth-child(" + column_number + ")").addClass("hover");
 			}).mouseout(function () {
+				// マウスが離れた列
 				$("td:nth-child(" + ($("td").index(this) % $("th").length + 1) + ")").removeClass("hover");
 			});
+
 		});
 	</script>
 	<style>

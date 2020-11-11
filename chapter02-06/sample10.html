@@ -8,14 +8,14 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 	<style>
 		p {
-			width: 800px;
-			height: 267px;
+			width: 510px;
+			height: 353px;
 			margin: 0;
 		}
 
 		div {
-			width: 400px;
-			height: 267px;
+			width: 208px;
+			height: 353px;
 			overflow: hidden;
 		}
 	</style>
@@ -23,7 +23,7 @@
 		$(function () {
 			$("#flower").click(function () {
 				$("p:not(:animated)").animate({
-					"margin-left": "-400px"
+					"margin-left": "-252px"
 				}, "slow", "swing");
 			});
 			$("#building").click(function () {
@@ -38,8 +38,8 @@
 <body>
 	<div>
 		<p>
-			<img src="flower.png" alt="flower" id="flower">
-			<img src="building.png" alt="building" id="building">
+			<img src="flower.png"   alt="flower"   id="flower"   height="353" width="208" />
+			<img src="building.png" alt="building" id="building" height="353" width="296" />
 		</p>
 	</div>
 </body>
