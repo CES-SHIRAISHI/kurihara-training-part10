@@ -119,6 +119,7 @@ $(function () {
 - hide
 - toggle
 
+
 - オンラインデモ
   - [chapter02/06/sample3.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-06/sample3.html)
 
@@ -128,9 +129,8 @@ $(function () {
 
 実務上はあまり利用しない
 
-オンラインデモ
-
-- [chapter02/06/sample10.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-06/sample10.html)
+- オンラインデモ
+  - [chapter02/06/sample10.html](https://ces-shiraishi.github.io/kurihara-training-part10/chapter02-06/sample10.html)
 
 
 
